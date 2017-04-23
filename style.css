@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html {
+  background-color: #00688B;
+  font-family: "Raleway";
+}
+
+h1 {
+  background-color: #00688B;
+  color: white;
+  font-family: "Raleway";
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 80px;
+}
+
+#location, #image, #altTemperature {
+  color: white;
+  font-family: "Raleway";
+  font-size: 50px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  float: left;
+}
+
+#weather {
+  color: white;
+  font-family: "Raleway";
+  font-size: 50px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  float: left;
+  padding-right: 5px;
+}
+
+#temperature {
+  color: #FD5F00;
+  font-size: 50px;
+  height: 10px;
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.tempFar {
+  color: #F3F315;
+  font-size: 30px;
+  height: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+#image {
+  margin-top: 30px;
+  font-size: 110px;  
+}
+
+
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: white;
+  }
+  
+a {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
